@@ -10,5 +10,3 @@ while (i<=N)
 if (i%2==0) System.Console.Write($"{i} ");
  i++;  
 }
-
- 
