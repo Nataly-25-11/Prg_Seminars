@@ -6,7 +6,7 @@
 int[] GenerateArray(int len){
     int[] arr = new int[len];
     for(int i = 0; i < len; i++){
-        arr[i] = new Random().Next(1, 100);
+        arr[i] = new Random().Next(-99, 100);
     }
     return arr;
 }
